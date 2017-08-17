@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 42 19" enable-background="new 0 0 42 19" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#FFFFFF" d="M6,18.4c-3,0-5.5-2.5-5.5-5.5V6.1C0.5,3,3,0.6,6,0.6h30c3,0,5.5,2.5,5.5,5.5v6.9c0,3-2.5,5.5-5.5,5.5H6z"
+			/>
+		<path fill="#D2D8D5" d="M36,1.1c2.8,0,5,2.2,5,5v6.9c0,2.8-2.2,5-5,5H6c-2.8,0-5-2.2-5-5V6.1c0-2.8,2.2-5,5-5H36 M36,0.1H6
+			c-3.3,0-6,2.7-6,6v6.9c0,3.3,2.7,6,6,6h30c3.3,0,6-2.7,6-6V6.1C42,2.7,39.3,0.1,36,0.1L36,0.1z"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 7.3043 13.007)" fill="#5E5E5E" font-family="'Roboto-Light'" font-size="10">Open</text>
+	</g>
+</g>
+</svg>
