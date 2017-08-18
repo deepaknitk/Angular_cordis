@@ -7,12 +7,12 @@ import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { AlertModule } from 'ngx-bootstrap';
 //import {ToolTipModule} from 'angular2-tooltip';
-//import {Routes, RouterModule} from "@angular/router";
 import { ContactDetailsComponent } from './contact-details/contact-details.component';
+import { RouterModule, Routes } from '@angular/router';
 
-
-
-
+const appRoutes: Routes = [
+  { path: 'contactDetails', component: ContactDetailsComponent }
+];
 
 @NgModule({
   declarations: [
@@ -23,6 +23,10 @@ import { ContactDetailsComponent } from './contact-details/contact-details.compo
     ContactDetailsComponent
   ],
   imports: [
+  RouterModule.forRoot(
+     appRoutes,
+     { enableTracing: true } // <-- debugging purposes only
+   ),
    //ToolTipModule,
   AlertModule.forRoot(),
     BrowserModule,

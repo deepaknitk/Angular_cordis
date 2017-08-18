@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+
+
 
 
 
@@ -9,10 +12,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EntityListComponent {
   flag=true;
-  constructor() { }
+  constructor(private router:Router) { }
    detail_form(){
    this.flag=false;
-  //this.Router.navigate([ContactDetailsComponent]);
+  this.router.navigate(['ContactDetailsComponent']);
    }
-
 }
