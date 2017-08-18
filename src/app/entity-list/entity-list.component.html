@@ -1,49 +1,40 @@
 
-<div class="body_layout" *ngIf="detailsFlag">
-<div class="entity_list">
-  <div class="row" style="font-size:14px;">
-    <div class="col-lg-4 col-md-4 col-sm-12 first_entity" >
-      <div class="entity hov_icn" uib-tooltip="NEW CONTACT POINT" tooltip-placement="bottom" (click)= "showDetails()">
-        <span class="glyphicon glyphicon-user vca-icon"></span>
-        <span class="entity_title"><strong>CONTACT POINT</strong></span>
-      </div>
-      <div class="entity  hov_icn" uib-tooltip="NEW CONTACT POINT"tooltip-placement="bottom">
-        <span class="glyphicon glyphicon-user vca-icon"></span>
-        <span class="entity_title">CONTACT POINT</span>
-      </div>
-        <div class="entity  hov_icn" uib-tooltip="NEW CONTACT POINT"tooltip-placement="bottom">
-          <span class="glyphicon glyphicon-user vca-icon"></span>
-          <span class="entity_title">CONTACT POINT</span>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 " >
-        <div class="entity  hov_icn" uib-tooltip="NEW CONTACT POINT"tooltip-placement="bottom">
-          <span class="glyphicon glyphicon-user vca-icon"></span>
-          <span class="entity_title">CONTACT POINT</span>
-        </div>
-        <div class="entity  hov_icn" uib-tooltip="NEW CONTACT POINT"tooltip-placement="bottom">
-          <span class="glyphicon glyphicon-user vca-icon"></span>
-          <span class="entity_title">CONTACT POINT</span>
-        </div>
-          <div class="entity  hov_icn" uib-tooltip="NEW CONTACT POINT"tooltip-placement="bottom">
-            <span class="glyphicon glyphicon-user vca-icon"></span>
-            <span class="entity_title">CONTACT POINT</span>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="entity  hov_icn" uib-tooltip="NEW CONTACT POINT"tooltip-placement="bottom">
-          <span class="glyphicon glyphicon-user vca-icon"></span>
-          <span class="entity_title">CONTACT POINTt</span>
-        </div>
-        <div class="entity  hov_icn" uib-tooltip="NEW CONTACT POINT"tooltip-placement="bottom">
-          <span class="glyphicon glyphicon-user vca-icon"></span>
-          <span class="entity_title">CONTACT POINT</span>
-        </div>
-          <div class="entity  hov_icn" uib-tooltip="NEW CONTACT POINT"tooltip-placement="bottom">
-            <span class="glyphicon glyphicon-user vca-icon"></span>
-            <span class="entity_title">CONTACT POINT</span>
-          </div>
-      </div>
+
+<div class="list_entity" *ngIf="flag">
+    <div class="list_all_entity" tooltip content="test tooltip" (click)="detail_form()">
+      <span class="glyphicon glyphicon-user all_list_icon"></span>
+      <span class="entity_title"><b>CONTACT POINT</b></span>
     </div>
-  </div>
+    <div class="list_all_entity">
+      <span class="glyphicon glyphicon-user all_list_icon"></span>
+      <span class="entity_title"><b>CORPORATE</b></span>
+    </div>
+    <div class="list_all_entity">
+      <span class="glyphicon glyphicon-user all_list_icon"></span>
+      <span class="entity_title"><b>VENDOR</b></span>
+    </div>
+    <div class="list_all_entity">
+      <span class="glyphicon glyphicon-user all_list_icon"></span>
+      <span class="entity_title"><b>EMPLOYEE</b></span>
+    </div>
+    <div class="list_all_entity">
+      <span class="glyphicon glyphicon-user all_list_icon"></span>
+      <span class="entity_title"><b>INDIVIDUAL</b></span>
+    </div>
+    <div class="list_all_entity">
+      <span class="glyphicon glyphicon-user all_list_icon"></span>
+      <span class="entity_title"><b>AGENT</b></span>
+    </div>
+    <div class="list_all_entity">
+      <span class="glyphicon glyphicon-user all_list_icon"></span>
+      <span class="entity_title"><b>SUB AGENT</b></span>
+    </div>
+    <div class="list_all_entity">
+      <span class="glyphicon glyphicon-user all_list_icon"></span>
+      <span class="entity_title"><b>PRINCIPAL</b></span>
+    </div>
+    <div class="list_all_entity">
+      <span class="glyphicon glyphicon-user all_list_icon"></span>
+      <span class="entity_title"><b>SMS CAMPAIGN</b></span>
+    </div>
 </div>

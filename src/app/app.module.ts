@@ -3,35 +3,32 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { EntityListComponent } from './entity-list/entity-list.component';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
 import { AlertModule } from 'ngx-bootstrap';
-import { RouterModule, Routes } from '@angular/router';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { ReplaceComponent } from './replace/replace.component';
+//import {ToolTipModule} from 'angular2-tooltip';
+//import {Routes, RouterModule} from "@angular/router";
+import { ContactDetailsComponent } from './contact-details/contact-details.component';
 
 
 
-const appRoutes: Routes =[
-   { path: 'replace',
-     component:ReplaceComponent
-   }
- ];
+
 
 @NgModule({
   declarations: [
     AppComponent,
     EntityListComponent,
-    PageNotFoundComponent,
-    ReplaceComponent
+    HomeComponent,
+    HeaderComponent,
+    ContactDetailsComponent
   ],
   imports: [
-  RouterModule.forRoot(appRoutes),
+   //ToolTipModule,
+  AlertModule.forRoot(),
     BrowserModule,
     AlertModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-
-
-
 export class AppModule { }
